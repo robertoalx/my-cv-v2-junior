@@ -1,0 +1,16 @@
+.section__ {
+
+  &header-wrapper{
+    padding: 10px;
+    height: 60px;
+    background-color: #d52133;
+    box-shadow: 0 3px 6px rgba($color: #000000, $alpha: 0.20);
+  }
+  
+  &header{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: white ;
+  }
+}
