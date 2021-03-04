@@ -37,6 +37,24 @@
   }
 }
 
+[class^="my-cv__"] {
+  width: 16px;
+  height: 16px;
+  margin-right: 12px;
+}
+
+.download-button {
+  background-color: #1875F0;
+  height: 40px;
+  margin: 20px auto 0;
+  border-radius: 20px;
+  padding: 0 24px;
+  color: white;
+  display: flex;
+  align-items: center;
+  border: 0;
+}
+
 .circle-red,
 .circle-green {
   width: 40px;
@@ -47,7 +65,7 @@
   border-radius: 50%;
   border: 0;
   color: white;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 .circle-red {
