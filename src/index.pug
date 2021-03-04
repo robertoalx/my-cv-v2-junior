@@ -4,21 +4,8 @@ html(lang="en")
     meta(charset="UTF-8")
     meta(http-equiv="X-UA-Compatible", content="IE=edge")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
-    title My Cv Junior 
+    title My Cv Junior
+    link(rel="stylesheet", href="style.css")
   body 
     .container
-      .section-header Welcome to my Sanctuar
-      button.circle
-        i.my-cv__youtube
-        span.text-button Youtube
-
-      h1 Robert Alexandru 
-      h2 Junior Front End Developer 
-      h3 About me
-
-      .description-wrapper
-        p Coding flows through my veins and my goal is to continuously improve and make a positive impact in people’s life by delivering amazing front end experiences.
-      
-      button.download 
-        i.my-cv__download 
-        span.text-button Download My Cv
+      include _component/about/about
