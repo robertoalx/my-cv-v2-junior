@@ -1,0 +1,164 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?gixzff') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?gixzff') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?gixzff##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="my-cv__"], [class*=" my-cv__"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.my-cv__arrow-down {
+  &:before {
+    content: $my-cv__arrow-down; 
+  }
+}
+.my-cv__arrow-up {
+  &:before {
+    content: $my-cv__arrow-up; 
+  }
+}
+.my-cv__book {
+  &:before {
+    content: $my-cv__book; 
+  }
+}
+.my-cv__codetap {
+  &:before {
+    content: $my-cv__codetap; 
+  }
+}
+.my-cv__codewars {
+  &:before {
+    content: $my-cv__codewars; 
+  }
+}
+.my-cv__commits {
+  &:before {
+    content: $my-cv__commits; 
+  }
+}
+.my-cv__cross {
+  &:before {
+    content: $my-cv__cross; 
+  }
+}
+.my-cv__download {
+  &:before {
+    content: $my-cv__download; 
+  }
+}
+.my-cv__earth {
+  &:before {
+    content: $my-cv__earth; 
+  }
+}
+.my-cv__facebook {
+  &:before {
+    content: $my-cv__facebook; 
+  }
+}
+.my-cv__forks {
+  &:before {
+    content: $my-cv__forks; 
+  }
+}
+.my-cv__github {
+  &:before {
+    content: $my-cv__github; 
+  }
+}
+.my-cv__heart {
+  &:before {
+    content: $my-cv__heart; 
+  }
+}
+.my-cv__info {
+  &:before {
+    content: $my-cv__info; 
+  }
+}
+.my-cv__instagram {
+  &:before {
+    content: $my-cv__instagram; 
+  }
+}
+.my-cv__link {
+  &:before {
+    content: $my-cv__link; 
+  }
+}
+.my-cv__linkedin {
+  &:before {
+    content: $my-cv__linkedin; 
+  }
+}
+.my-cv__menu {
+  &:before {
+    content: $my-cv__menu; 
+  }
+}
+.my-cv__rotate {
+  &:before {
+    content: $my-cv__rotate; 
+  }
+}
+.my-cv__skype {
+  &:before {
+    content: $my-cv__skype; 
+  }
+}
+.my-cv__stackoverflow {
+  &:before {
+    content: $my-cv__stackoverflow; 
+  }
+}
+.my-cv__stars {
+  &:before {
+    content: $my-cv__stars; 
+  }
+}
+.my-cv__trophy {
+  &:before {
+    content: $my-cv__trophy; 
+  }
+}
+.my-cv__twitter {
+  &:before {
+    content: $my-cv__twitter; 
+  }
+}
+.my-cv__udemy {
+  &:before {
+    content: $my-cv__udemy; 
+  }
+}
+.my-cv__user {
+  &:before {
+    content: $my-cv__user; 
+  }
+}
+.my-cv__youtube {
+  &:before {
+    content: $my-cv__youtube; 
+  }
+}
+
