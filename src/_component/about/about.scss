@@ -13,4 +13,26 @@
     text-align: center;
     color: white ;
   }
+
+  &main-title,
+  &sub-title {
+    color: #707070;
+    text-align: center;
+  }
+
+  &main-title{
+    font-size: 48px;
+    line-height: 64px;
+  }
+
+  &sub-title {
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  &description-title {
+    font-size: 22px;
+    line-height: 30px;
+    color: #808080;
+  }
 }
