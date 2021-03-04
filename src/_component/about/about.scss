@@ -3,7 +3,7 @@
   &header-wrapper{
     padding: 10px;
     height: 60px;
-    background-color: #d52133;
+    background-color: #d52027;
     box-shadow: 0 3px 6px rgba($color: #000000, $alpha: 0.20);
   }
   
@@ -35,6 +35,27 @@
     line-height: 30px;
     color: #808080;
   }
+}
+
+.circle-red,
+.circle-green {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 0;
+  color: white;
+  margin: 0 auto;
+}
+
+.circle-red {
+  background-color: #d52027;
+}
+
+.circle-green {
+  background-color: #50D166;
 }
 
 .description__ {
