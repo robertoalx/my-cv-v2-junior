@@ -1,6 +1,6 @@
 .column(span="row")
   .section__header-wrapper
-    .section__header Welcome to my Sanctuar
+    .section__header=data['about'].sectionHeader
 
 .column(span="row" height="10")
 .column(span="row")
@@ -8,22 +8,24 @@
     i.my-cv__youtube
 
 .column(span="row")
-  h1.section__main-title Robert Alexandru 
+  h1.section__main-title=data['about'].mainTitle
+
 .column(span="row")
-  h2.section__sub-title Junior Front End Developer 
+  h2.section__sub-title=data['about'].subTitle
+
 .column(span="row" height="10")
 .column(span="row")
-  h3.section__description-title About me
+  h3.section__description-title=data['about'].descriptionTitle
 
 .column(span="row")
   .description__wrapper
-    p.description__text Coding flows through my veins and my goal is to continuously improve and make a positive impact in people’s life by delivering amazing front end experiences.
+    p.description__text=data['about'].descriptionText
 
 .column(span="row" height="10")
 .column(span="row")
   button.download-button
     i.my-cv__download 
-    span.text-button Download My Cv
+    span.text-button=data['about'].textButton
 
 .column(span="row" height="10")
 .column(span="row")
