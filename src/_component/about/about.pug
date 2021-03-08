@@ -1,0 +1,33 @@
+.column(span="row")
+  .section__header-wrapper
+    .section__header=data['about'].sectionHeader
+
+.column(span="row" height="10")
+.column(span="row")
+  button.circle-red
+    i.my-cv__youtube
+
+.column(span="row")
+  h1.section__main-title=data['about'].mainTitle
+
+.column(span="row")
+  h2.section__sub-title=data['about'].subTitle
+
+.column(span="row" height="10")
+.column(span="row")
+  h3.section__description-title=data['about'].descriptionTitle
+
+.column(span="row")
+  .description__wrapper
+    p.description__text=data['about'].descriptionText
+
+.column(span="row" height="10")
+.column(span="row")
+  button.download-button
+    i.my-cv__download 
+    span.text-button=data['about'].textButton
+
+.column(span="row" height="10")
+.column(span="row")
+  button.circle-green
+    i.my-cv__arrow-down 
