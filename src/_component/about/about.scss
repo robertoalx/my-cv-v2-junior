@@ -1,6 +1,6 @@
 .section__ {
 
-  &header-wrapper{
+  & header-wrapper{
     padding: 10px;
     height: 60px;
     background-color: #d52027;
@@ -28,7 +28,7 @@
     }
   }
   
-  &header{
+  & header{
     height: 40px;
     line-height: 40px;
     text-align: center;
@@ -37,23 +37,23 @@
     font-size: 24px;
   }
 
-  &main-title,
-  &sub-title {
+  & main-title,
+  & sub-title {
     color: #707070;
     text-align: center;
   }
 
-  &main-title{
+  & main-title{
     font-size: 48px;
     line-height: 64px;
   }
 
-  &sub-title {
+  & sub-title {
     font-size: 36px;
     line-height: 48px;
   }
 
-  &description-title {
+  & description-title {
     font-size: 22px;
     line-height: 30px;
     color: #808080;
